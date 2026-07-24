@@ -17,7 +17,9 @@
             key-positions = <28 29>;
             layers = <2>;
         };
+    };
 
+    behaviors {
         td_lang_layer: td_lang_layer {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
@@ -25,8 +27,8 @@
 
             bindings =
                 <&kp LANGUAGE_2>,
-                <&mo 2>,
-                <&mo 3>;
+                <&lt 2 LANGUAGE_2>,
+                <&lt 3 LANGUAGE_2>;
         };
     };
 
