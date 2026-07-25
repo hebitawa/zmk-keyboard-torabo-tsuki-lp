@@ -20,15 +20,15 @@
     };
 
     behaviors {
-        td_lang_layer: td_lang_layer {
+        td_lang_layer: tap_dance_lang_layer {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
 
             bindings =
                 <&kp LANGUAGE_2>,
-                <&lt 2 LANGUAGE_2>,
-                <&lt 3 LANGUAGE_2>;
+                <&mo 2>,
+                <&mo 3>;
         };
     };
 
