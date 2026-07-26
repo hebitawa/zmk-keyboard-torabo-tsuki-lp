@@ -34,8 +34,8 @@
             bindings = <
 &trans         &trans        &trans        &trans  &trans  &trans                                          &trans            &trans  &trans     &trans          &trans          &trans
 &kp TAB        &kp Q         &kp W         &kp E   &kp R   &kp T                                           &kp Y             &kp U   &kp I      &kp O           &kp P           &kp BSPC
-&kp LCTRL      &kp A         &kp S         &kp D   &kp F   &kp G              &trans          &trans       &kp H             &kp J   &kp K      &kp L           &kp SEMI        &kp MINUS
-&kp LSHFT      &kp Z         &kp X         &kp C   &kp V   &kp B              &lt 3 LPAR      &kp RPAR     &kp N             &kp M   &kp COMMA  &kp DOT         &kp UP_ARROW    &kp RSHFT
+&kp LCTRL      &kp A         &kp S         &kp D   &kp F   &kp G              &trans          &trans       &kp H             &kp J   &kp K      &kp L           &lt 3 SEMI      &kp MINUS
+&kp LSHFT      &kp Z         &kp X         &kp C   &kp V   &kp B              &kp LPAR        &kp RPAR     &kp N             &kp M   &kp COMMA  &kp DOT         &kp UP_ARROW    &kp RSHFT
 &kpls BACKSLASH   &kp LEFT_GUI  &kp LEFT_ALT  &trans  &trans  &lt 2 LANGUAGE_2  &kp SPACE     &kp ENTER    &lt 1 LANGUAGE_1  &trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
